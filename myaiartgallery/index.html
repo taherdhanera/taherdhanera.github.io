@@ -685,8 +685,8 @@
     </div>
     <div class="video-date">2025-06-30</div>
   </div>
-  <!-- Video 15 – NEW -->
-  <div class="gallery-item" data-date="2026-04-06">
+  <!-- Video 15 -->
+  <div class="gallery-item" data-date="2026-04-05">
     <div class="video-wrapper">
       <video id="video15" controls preload="metadata" controlsList="nodownload" playsinline></video>
       <canvas id="canvas15" class="canvas-overlay"></canvas>
@@ -694,8 +694,26 @@
     </div>
     <div class="quality-indicator" id="quality15">HD</div>
     <div class="video-controls">
-      <div class="video-title">Ram Gopal Varma Returns</div>
+      <div class="video-title">Coca-Cola Ad</div>
       <select class="resolution-selector" onchange="changeResolution('video15', this.value)">
+        <option value="480p">480p</option>
+        <option value="720p">720p</option>
+        <option value="1080p" selected>1080p</option>
+      </select>
+    </div>
+    <div class="video-date">2026-04-05</div>
+  </div>
+  <!-- Video 16 -->
+  <div class="gallery-item" data-date="2026-04-06">
+    <div class="video-wrapper">
+      <video id="video16" controls preload="metadata" controlsList="nodownload" playsinline></video>
+      <canvas id="canvas16" class="canvas-overlay"></canvas>
+      <div id="buffering16" class="buffering-indicator"></div>
+    </div>
+    <div class="quality-indicator" id="quality16">HD</div>
+    <div class="video-controls">
+      <div class="video-title">Ram Gopal Varma Returns</div>
+      <select class="resolution-selector" onchange="changeResolution('video16', this.value)">
         <option value="480p">480p</option>
         <option value="720p">720p</option>
         <option value="1080p" selected>1080p</option>
@@ -777,6 +795,11 @@
       '1080p': 'https://wsymagxhyzqeilrtjvmo.supabase.co/storage/v1/object/public/videos/The%20Last%20Passenger%20Never%20Returns.mp4 '
     },
     'video15': {
+      '480p': 'https://wsymagxhyzqeilrtjvmo.supabase.co/storage/v1/object/public/videos/Coca-Cola%20Ad.mp4 ',
+      '720p': 'https://wsymagxhyzqeilrtjvmo.supabase.co/storage/v1/object/public/videos/Coca-Cola%20Ad.mp4 ',
+      '1080p': 'https://wsymagxhyzqeilrtjvmo.supabase.co/storage/v1/object/public/videos/Coca-Cola%20Ad.mp4 '
+    },
+    'video16': {
       '480p': 'https://wsymagxhyzqeilrtjvmo.supabase.co/storage/v1/object/public/videos/Ram%20Gopal%20Varma%20Returns.mp4 ',
       '720p': 'https://wsymagxhyzqeilrtjvmo.supabase.co/storage/v1/object/public/videos/Ram%20Gopal%20Varma%20Returns.mp4 ',
       '1080p': 'https://wsymagxhyzqeilrtjvmo.supabase.co/storage/v1/object/public/videos/Ram%20Gopal%20Varma%20Returns.mp4 '
